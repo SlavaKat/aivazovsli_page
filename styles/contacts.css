@@ -4,9 +4,9 @@
 }
 
 .contacts-title {
+    font-size: 34px;
     font-weight: 700;
     line-height: 40px;
-    font-size: 34px;
     color: var(--color-main-black);
 }
 
@@ -17,16 +17,15 @@
     border: none;
     border-radius: 21px;
     margin: 75px 0 30px;
+    font-size: 24px; 
+    font-weight: 500; 
+    color: var(--bg-main); 
+    text-decoration: none; 
+    cursor: pointer; 
 }
 
 .contacts-button:hover {
-    opacity: .8;
-}
-
-.button-link {
-    font-size: 24px;
-    font-weight: 500;
-    color: var(--bg-main);
+    opacity: 0.8;
 }
 
 .socials {
@@ -57,13 +56,17 @@
 
 @media (max-width: 480px) {
     .socials {
+
         gap: 20px;
-    }  
+    }
+    
     .social-icon {
         width: 55px;
         height: 55px;
+        fill: var(--color-main-black);
     }
     .contacts-info {
         font-size: 14px;         
-    }   
+    }
+   
 }
